@@ -16,7 +16,7 @@ def save_image_pytorch(img, name):
         nrow=1,
         padding=0,
         normalize=True,
-        range=(-1, 1),
+        value_range=(-1, 1),
     )
 
 
